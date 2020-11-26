@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1388779660}
   - component: {fileID: 1388779659}
+  - component: {fileID: 1388779661}
   m_Layer: 0
   m_Name: Map
   m_TagString: Untagged
@@ -155,8 +156,9 @@ MonoBehaviour:
   height: 80
   width: 80
   seed: Laimonas
-  useRandomSeed: 0
-  randomFillPercent: 48
+  useRandomSeed: 1
+  smoothIterations: 2
+  randomFillPercent: 61
 --- !u!4 &1388779660
 Transform:
   m_ObjectHideFlags: 0
@@ -171,6 +173,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1388779661
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388779658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e041a9f71d8994ce4bd92f94726df114, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1491688807
 GameObject:
   m_ObjectHideFlags: 0
